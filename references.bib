@@ -1,0 +1,1371 @@
+% This file was created with JabRef 2.7.2.
+% Encoding: UTF-8
+
+@ARTICLE{Angelis2011,
+  author = {Angelis, G. I. and Reader, A. J. and Kotasidis, F. A. and Lionheart,
+	W. R. and Matthews, J. C.},
+  title = {The performance of monotonic and new non-monotonic gradient ascent
+	reconstruction algorithms for high-resolution neuroreceptor PET imaging.},
+  journal = {Phys Med Biol},
+  year = {2011},
+  volume = {56},
+  pages = {3895--3917},
+  number = {13},
+  month = {Jul},
+  abstract = {Iterative expectation maximization (EM) techniques have been extensively
+	used to solve maximum likelihood (ML) problems in positron emission
+	tomography (PET) image reconstruction. Although EM methods offer
+	a robust approach to solving ML problems, they usually suffer from
+	slow convergence rates. The ordered subsets EM (OSEM) algorithm provides
+	significant improvements in the convergence rate, but it can cycle
+	between estimates converging towards the ML solution of each subset.
+	In contrast, gradient-based methods, such as the recently proposed
+	non-monotonic maximum likelihood (NMML) and the more established
+	preconditioned conjugate gradient (PCG), offer a globally convergent,
+	yet equally fast, alternative to OSEM. Reported results showed that
+	NMML provides faster convergence compared to OSEM; however, it has
+	never been compared to other fast gradient-based methods, like PCG.
+	Therefore, in this work we evaluate the performance of two gradient-based
+	methods (NMML and PCG) and investigate their potential as an alternative
+	to the fast and widely used OSEM. All algorithms were evaluated using
+	2D simulations, as well as a single [(11)C]DASB clinical brain dataset.
+	Results on simulated 2D data show that both PCG and NMML achieve
+	orders of magnitude faster convergence to the ML solution compared
+	to MLEM and exhibit comparable performance to OSEM. Equally fast
+	performance is observed between OSEM and PCG for clinical 3D data,
+	but NMML seems to perform poorly. However, with the addition of a
+	preconditioner term to the gradient direction, the convergence behaviour
+	of NMML can be substantially improved. Although PCG is a fast convergent
+	algorithm, the use of a (bent) line search increases the complexity
+	of the implementation, as well as the computational time involved
+	per iteration. Contrary to previous reports, NMML offers no clear
+	advantage over OSEM or PCG, for noisy PET data. Therefore, we conclude
+	that there is little evidence to replace OSEM as the algorithm of
+	choice for many applications, especially given that in practice convergence
+	is often not desired for algorithms seeking ML estimates.},
+  doi = {10.1088/0031-9155/56/13/010},
+  institution = {Imaging, Proteomics and Genomics, MAHSC, University of Manchester,
+	Wolfson Molecular Imaging Centre, Manchester, UK. georgios.angelis@mmic.man.ac.uk},
+  keywords = {Algorithms; Aniline Compounds, diagnostic use; Humans; Image Processing,
+	Computer-Assisted, methods; Models, Theoretical; Positron-Emission
+	Tomography, methods; Reproducibility of Results; Sensory Receptor
+	Cells, radionuclide imaging; Sulfides, diagnostic use},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {S0031-9155(11)82907-6},
+  pmid = {21654041},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1088/0031-9155/56/13/010}
+}
+
+@ARTICLE{Bilbao-Castro2009,
+  author = {Bilbao-Castro, J. R. and Marabini, R. and Sorzano, C O S. and García,
+	I. and Carazo, J. M. and Fernández, J. J.},
+  title = {Exploiting desktop supercomputing for three-dimensional electron
+	microscopy reconstructions using ART with blobs.},
+  journal = {J Struct Biol},
+  year = {2009},
+  volume = {165},
+  pages = {19--26},
+  number = {1},
+  month = {Jan},
+  abstract = {Three-dimensional electron microscopy allows direct visualization
+	of biological macromolecules close to their native state. The high
+	impact of this technique in the structural biology field is highly
+	correlated with the development of new image processing algorithms.
+	In order to achieve subnanometer resolution, the size and number
+	of images involved in a three-dimensional reconstruction increase
+	and so do computer requirements. New chips integrating multiple processors
+	are hitting the market at a reduced cost. This high-integration,
+	low-cost trend has just begun and is expected to bring real supercomputers
+	to our laboratory desktops in the coming years. This paper proposes
+	a parallel implementation of a computation-intensive algorithm for
+	three-dimensional reconstruction, ART, that takes advantage of the
+	computational power in modern multicore platforms. ART is a sophisticated
+	iterative reconstruction algorithm that has turned out to be well
+	suited for the conditions found in three-dimensional electron microscopy.
+	In view of the performance obtained in this work, these modern platforms
+	are expected to play an important role to face the future challenges
+	in three-dimensional electron microscopy.},
+  doi = {10.1016/j.jsb.2008.09.009},
+  institution = {Dept. Arquitectura de Computadores y Electrónica, Universidad de
+	Almería, 04120 Almería, Spain. jrbcast@ace.ual.es},
+  keywords = {Adenoviridae, ultrastructure; Algorithms; Capsid Proteins, ultrastructure;
+	Imaging, Three-Dimensional, methods; Microscopy, Electron},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {rudolph},
+  pii = {S1047-8477(08)00232-3},
+  pmid = {18940260},
+  timestamp = {2013.02.18},
+  url = {http://dx.doi.org/10.1016/j.jsb.2008.09.009}
+}
+
+@ARTICLE{Boguski2009,
+  author = {Boguski, Mark S. and Arnaout, Ramy and Hill, Colin},
+  title = {Customized care 2020: how medical sequencing and network biology
+	will enable personalized medicine.},
+  journal = {F1000 Biol Rep},
+  year = {2009},
+  volume = {1},
+  pages = {73},
+  abstract = {Applications of next-generation nucleic acid sequencing technologies
+	will lead to the development of precision diagnostics that will,
+	in turn, be a major technology enabler of precision medicine. Terabyte-scale,
+	multidimensional data sets derived using these technologies will
+	be used to reverse engineer the specific disease networks that underlie
+	individual patients' conditions. Modeling and simulation of these
+	networks in the presence of virtual drugs, and combinations of drugs,
+	will identify the most efficacious therapy for precision medicine
+	and customized care. In coming years the practice of medicine will
+	routinely employ network biology analytics supported by high-performance
+	supercomputing.},
+  doi = {10.3410/B1-73},
+  institution = {Department of Pathology, Beth Israel Deaconess Medical Center and
+	Center for Biomedical Informatics, Harvard Medical School, 10 Shattuck
+	St, Boston, MA 02115, USA. mark_boguski@hms.harvard.edu},
+  language = {eng},
+  medline-pst = {epublish},
+  owner = {rudolph},
+  pmid = {20948615},
+  timestamp = {2013.02.18},
+  url = {http://dx.doi.org/10.3410/B1-73}
+}
+
+@ARTICLE{Case2012,
+  author = {Case, Timothy and Morrison, Cecily and Vuylsteke, Alain},
+  title = {The clinical application of mobile technology to disaster medicine.},
+  journal = {Prehosp Disaster Med},
+  year = {2012},
+  volume = {27},
+  pages = {473--480},
+  number = {5},
+  month = {Oct},
+  abstract = {Mobile health care technology (mHealth) has the potential to improve
+	communication and clinical information management in disasters. This
+	study reviews the literature on health care and computing published
+	in the past five years to determine the types and efficacy of mobile
+	applications available to disaster medicine, along with lessons learned.
+	Five types of applications are identified: (1) disaster scene management;
+	(2) remote monitoring of casualties; (3) medical image transmission
+	(teleradiology); (4) decision support applications; and (5) field
+	hospital information technology (IT) systems. Most projects have
+	not yet reached the deployment stage, but evaluation exercises show
+	that mHealth should allow faster processing and transport of patients,
+	improved accuracy of triage and better monitoring of unattended patients
+	at a disaster scene. Deployments of teleradiology and field hospital
+	IT systems to disaster zones suggest that mHealth can improve resource
+	allocation and patient care. The key problems include suitability
+	of equipment for use in disaster zones and providing sufficient training
+	to ensure staff familiarity with complex equipment. Future research
+	should focus on providing unbiased observations of the use of mHealth
+	in disaster medicine.},
+  doi = {10.1017/S1049023X12001173},
+  institution = {School of Clinical Medicine, University of Cambridge, Cambridge,
+	UK. tim.case@cantab.net},
+  keywords = {Databases, Bibliographic; Disaster Medicine, methods/trends; Emergency
+	Medical Service Communication Systems, organization /&/ administration/trends;
+	Humans; Medical Informatics, instrumentation/methods/trends; Telemedicine,
+	instrumentation/methods/trends},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {S1049023X12001173},
+  pmid = {22892104},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1017/S1049023X12001173}
+}
+
+@INPROCEEDINGS{Cifor09a.:smooth,
+  author = {Amalia Cifor and Tony Pridmore and Alain Pitiot},
+  title = {A.: Smooth 3-D reconstruction for 2-D histological images},
+  booktitle = {In: IPMI. Volume 5636 of LNCS},
+  year = {2009},
+  pages = {350--361},
+  publisher = {Springer}
+}
+
+@ARTICLE{Elgort2005,
+  author = {Elgort, Daniel R. and Duerk, Jeffrey L.},
+  title = {A review of technical advances in interventional magnetic resonance
+	imaging.},
+  journal = {Acad Radiol},
+  year = {2005},
+  volume = {12},
+  pages = {1089--1099},
+  number = {9},
+  month = {Sep},
+  abstract = {Initial research in the development of interventional magnetic resonance
+	(MR) imaging in the late 1980s and early to mid-1990s focused on
+	pulse sequences, devices, and clinical applications. This focus was
+	largely a result of the limited number of areas in which the academic
+	research community leading the development could provide innovation
+	on the MR systems of the time. However, during the past decade, computational
+	power, higher bandwidth graphical displays, faster computer networks,
+	improved pulse sequence architectures, and improved technical specifications
+	have accelerated the pace of development on modern MR systems. Today,
+	it is the combination of multiple system factors that are enabling
+	the future of interventional MR. These developments, their impact
+	on the field, and newly emerging applications are described.},
+  doi = {10.1016/j.acra.2005.06.003},
+  institution = {Department of Radiology-MRI, Case Western Reserve University and
+	University Hospitals of Cleveland, 11100 Euclid Avenue, Cleveland,
+	OH 44106, USA.},
+  keywords = {Animals; Biopsy, methods; Cardiovascular Diseases, therapy; Catheter
+	Ablation; Humans; Image Processing, Computer-Assisted; Magnetic Resonance
+	Imaging, instrumentation/trends; Punctures},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {S1076-6332(05)00497-6},
+  pmid = {16099690},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1016/j.acra.2005.06.003}
+}
+
+@ARTICLE{Feied2004,
+  author = {Feied, Craig F. and Handler, Jonathan A. and Smith, Mark S. and Gillam,
+	Michael and Kanhouwa, Meera and Rothenhaus, Todd and Conover, Keith
+	and Shannon, Tony},
+  title = {Clinical information systems: instant ubiquitous clinical data for
+	error reduction and improved clinical outcomes.},
+  journal = {Acad Emerg Med},
+  year = {2004},
+  volume = {11},
+  pages = {1162--1169},
+  number = {11},
+  month = {Nov},
+  abstract = {Immediate access to existing clinical information is inadequate in
+	current medical practice; lack of existing information causes or
+	contributes to many classes of medical error, including diagnostic
+	and treatment error. A review of the literature finds ample evidence
+	to support a description of the problems caused by data that are
+	missing or unavailable but little evidence to support one proposed
+	solution over another. A primary recommendation of the Consensus
+	Committee is that hospitals and departments should adopt systems
+	that provide fast, ubiquitous, and unified access to all types of
+	existing data. Additional recommendations cover a variety of related
+	functions and operational concepts, from backups and biosurveillance
+	to speed, training, and usability.},
+  doi = {10.1197/j.aem.2004.08.010},
+  institution = {Institute for Medical Informatics, 110 Irving Street, NW, Washington,
+	DC 20010, USA. cfeied@ncemi.org},
+  keywords = {Decision Making, Computer-Assisted; Decision Support Systems, Clinical,
+	standards/trends; Emergency Medicine, standards/trends; Forecasting;
+	Hospital Information Systems, standards/trends; Humans; Medical Errors,
+	prevention /&/ control; Outcome Assessment (Health Care); Quality
+	Control; Sensitivity and Specificity; Systems Integration},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {rudolph},
+  pii = {11/11/1162},
+  pmid = {15528580},
+  timestamp = {2013.02.18},
+  url = {http://dx.doi.org/10.1197/j.aem.2004.08.010}
+}
+
+@ARTICLE{Feied2004a,
+  author = {Feied, Craig F. and Handler, Jonathan A. and Smith, Mark S. and Gillam,
+	Michael and Kanhouwa, Meera and Rothenhaus, Todd and Conover, Keith
+	and Shannon, Tony},
+  title = {Clinical Information Systems: Instant Ubiquitous Clinical Data for
+	Error Reduction and Improved Clinical Outcomes},
+  journal = {Academic Emergency Medicine},
+  year = {2004},
+  volume = {11},
+  pages = {1162--1169},
+  number = {11},
+  __markedentry = {[rudolph:6]},
+  doi = {10.1197/j.aem.2004.08.010},
+  issn = {1553-2712},
+  keywords = {electronic medical record, clinical results, information technology,
+	computer},
+  owner = {rudolph},
+  publisher = {Blackwell Publishing Ltd},
+  timestamp = {2013.02.18},
+  url = {http://dx.doi.org/10.1197/j.aem.2004.08.010}
+}
+
+@ARTICLE{Frisiello1991,
+  author = {Frisiello, R. S.},
+  title = {Desktop supercomputers. Advance medical imaging.},
+  journal = {Comput Healthc},
+  year = {1991},
+  volume = {12},
+  pages = {40--1, 44},
+  number = {2},
+  month = {Feb},
+  abstract = {Medical imaging tools that radiologists as well as a wide range of
+	clinicians and healthcare professionals have come to depend upon
+	are emerging into the next phase of functionality. The strides being
+	made in supercomputing technologies--including reduction of size
+	and price--are pushing medical imaging to a new level of accuracy
+	and functionality.},
+  keywords = {Data Display; Investments; Magnetic Resonance Imaging, trends; Nuclear
+	Medicine, trends; Radiographic Image Interpretation, Computer-Assisted,
+	instrumentation; Radiology Information Systems, trends; Software;
+	United States},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {rudolph},
+  pmid = {10108856},
+  timestamp = {2013.02.18}
+}
+
+@ARTICLE{Giancarlo2011,
+  author = {Giancarlo, Raffaele and Utro, Filippo},
+  title = {Speeding up the Consensus Clustering methodology for microarray data
+	analysis.},
+  journal = {Algorithms Mol Biol},
+  year = {2011},
+  volume = {6},
+  pages = {1},
+  number = {1},
+  abstract = {The inference of the number of clusters in a dataset, a fundamental
+	problem in Statistics, Data Analysis and Classification, is usually
+	addressed via internal validation measures. The stated problem is
+	quite difficult, in particular for microarrays, since the inferred
+	prediction must be sensible enough to capture the inherent biological
+	structure in a dataset, e.g., functionally related genes. Despite
+	the rich literature present in that area, the identification of an
+	internal validation measure that is both fast and precise has proved
+	to be elusive. In order to partially fill this gap, we propose a
+	speed-up of Consensus (Consensus Clustering), a methodology whose
+	purpose is the provision of a prediction of the number of clusters
+	in a dataset, together with a dissimilarity matrix (the consensus
+	matrix) that can be used by clustering algorithms. As detailed in
+	the remainder of the paper, Consensus is a natural candidate for
+	a speed-up.Since the time-precision performance of Consensus depends
+	on two parameters, our first task is to show that a simple adjustment
+	of the parameters is not enough to obtain a good precision-time trade-off.
+	Our second task is to provide a fast approximation algorithm for
+	Consensus. That is, the closely related algorithm FC (Fast Consensus)
+	that would have the same precision as Consensus with a substantially
+	better time performance. The performance of FC has been assessed
+	via extensive experiments on twelve benchmark datasets that summarize
+	key features of microarray applications, such as cancer studies,
+	gene expression with up and down patterns, and a full spectrum of
+	dimensionality up to over a thousand. Based on their outcome, compared
+	with previous benchmarking results available in the literature, FC
+	turns out to be among the fastest internal validation methods, while
+	retaining the same outstanding precision of Consensus. Moreover,
+	it also provides a consensus matrix that can be used as a dissimilarity
+	matrix, guaranteeing the same performance as the corresponding matrix
+	produced by Consensus. We have also experimented with the use of
+	Consensus and FC in conjunction with NMF (Nonnegative Matrix Factorization),
+	in order to identify the correct number of clusters in a dataset.
+	Although NMF is an increasingly popular technique for biological
+	data mining, our results are somewhat disappointing and complement
+	quite well the state of the art about NMF, shedding further light
+	on its merits and limitations.In summary, FC with a parameter setting
+	that makes it robust with respect to small and medium-sized datasets,
+	i.e, number of items to cluster in the hundreds and number of conditions
+	up to a thousand, seems to be the internal validation measure of
+	choice. Moreover, the technique we have developed here can be used
+	in other contexts, in particular for the speed-up of stability-based
+	validation measures.},
+  doi = {10.1186/1748-7188-6-1},
+  institution = {unipa.it.},
+  language = {eng},
+  medline-pst = {epublish},
+  owner = {emily.seibring},
+  pii = {1748-7188-6-1},
+  pmid = {21235792},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1186/1748-7188-6-1}
+}
+
+@ARTICLE{Hanson1990,
+  author = {Hanson, William J. and Myers, H. Joseph and Bernstein, Ralph and
+	DeLapaz, Robert L.},
+  title = {Supercomputing in medical science},
+  year = {1990},
+  pages = {231-236},
+  doi = {10.1117/12.19558},
+  owner = {rudolph},
+  timestamp = {2013.02.18},
+  url = { + http://dx.doi.org/10.1117/12.19558}
+}
+
+@ARTICLE{Huang2010,
+  author = {Huang, Albert and Abugharbieh, Rafeef and Tam, Roger},
+  title = {A novel rotationally invariant region-based hidden Markov model for
+	efficient 3-D image segmentation.},
+  journal = {IEEE Trans Image Process},
+  year = {2010},
+  volume = {19},
+  pages = {2737--2748},
+  number = {10},
+  month = {Oct},
+  abstract = {We present a novel 3-D region-based hidden Markov model (rbHMM) for
+	efficient unsupervised 3-D image segmentation. Our contribution is
+	twofold. First, rbHMM employs a more efficient representation of
+	the image data than current state-of-the-art HMM-based approaches
+	that are based on either voxels or rectangular lattices/grids, thus
+	resulting in a faster optimization process. Second, our proposed
+	novel tree-structured parameter estimation algorithm for the rbHMM
+	provides a locally optimal data labeling that is invariant to object
+	rotation, which is a highly valuable property in segmentation tasks,
+	especially in medical imaging where the segmentation results need
+	to be independent of patient positioning in scanners in order to
+	minimize methodological variability in data analysis. We demonstrate
+	the advantages of our proposed technique over grid-based HMMs by
+	validating on synthetic images of geometric shapes as well as both
+	simulated and clinical brain MRI scans. For the geometric shapes
+	data, our method produced consistently accurate segmentation results
+	that were also invariant to object rotation. For the brain MRI data,
+	our white matter and gray matter segmentation resulted in substantially
+	higher robustness and accuracy levels with improved Dice similarity
+	indices of 4.60\% (p=0.0022) and 7.71\% , respectively.},
+  doi = {10.1109/TIP.2010.2048965},
+  institution = {Department of Electrical and Computer Engineering, University of
+	British Columbia, Vancouver, BC V6T 1Z4, Canada. alberth@ece.ubc.ca},
+  keywords = {Algorithms; Brain, anatomy /&/ histology; Cluster Analysis; Humans;
+	Image Processing, Computer-Assisted, methods; Magnetic Resonance
+	Imaging, methods; Markov Chains},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pmid = {20423805},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1109/TIP.2010.2048965}
+}
+
+@ARTICLE{Jimenez2012,
+  author = {Jiménez, J. and {Ruiz de Miras}, J.},
+  title = {Fast box-counting algorithm on GPU.},
+  journal = {Comput Methods Programs Biomed},
+  year = {2012},
+  volume = {108},
+  pages = {1229--1242},
+  number = {3},
+  month = {Dec},
+  abstract = {The box-counting algorithm is one of the most widely used methods
+	for calculating the fractal dimension (FD). The FD has many image
+	analysis applications in the biomedical field, where it has been
+	used extensively to characterize a wide range of medical signals.
+	However, computing the FD for large images, especially in 3D, is
+	a time consuming process. In this paper we present a fast parallel
+	version of the box-counting algorithm, which has been coded in CUDA
+	for execution on the Graphic Processing Unit (GPU). The optimized
+	GPU implementation achieved an average speedup of 28 times (28×)
+	compared to a mono-threaded CPU implementation, and an average speedup
+	of 7 times (7×) compared to a multi-threaded CPU implementation.
+	The performance of our improved box-counting algorithm has been tested
+	with 3D models with different complexity, features and sizes. The
+	validity and accuracy of the algorithm has been confirmed using models
+	with well-known FD values. As a case study, a 3D FD analysis of several
+	brain tissues has been performed using our GPU box-counting algorithm.},
+  doi = {10.1016/j.cmpb.2012.07.005},
+  institution = {Department of Computer Sciences, University of Jaén, Jaén, Spain.},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {S0169-2607(12)00179-4},
+  pmid = {22917763},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1016/j.cmpb.2012.07.005}
+}
+
+@ARTICLE{Jolesz2005,
+  author = {Jolesz, Ferenc A.},
+  title = {Future perspectives for intraoperative MRI.},
+  journal = {Neurosurg Clin N Am},
+  year = {2005},
+  volume = {16},
+  pages = {201--213},
+  number = {1},
+  month = {Jan},
+  abstract = {MRI-guided neurosurgery not only represents a technical challenge
+	but a transformation from conventional hand-eye coordination to interactive
+	navigational operations. In the future, multimodality-based images
+	will be merged into a single model, in which anatomy and pathologic
+	changes are at once distinguished and integrated into the same intuitive
+	framework. The long-term goals of improving surgical procedures and
+	attendant outcomes, reducing costs, and achieving broad use can be
+	achieved with a three-pronged approach: 1. Improving the presentation
+	of preoperative and real-time intraoperative image information 2.
+	Integrating imaging and treatment-related technology into therapy
+	delivery systems 3. Testing the clinical utility of image guidance
+	in surgery The recent focus in technology development is on improving
+	our ability to understand and apply medical images and imaging systems.
+	Areas of active research include image processing, model-based image
+	analysis, model deformation, real-time registration, real-time 3D
+	(so-called "four-dimensional") imaging, and the integration and presentation
+	of image and sensing information in the operating room. Key elements
+	of the technical matrix also include visualization and display platforms
+	and related software for information and display, model-based image
+	understanding, the use of computing clusters to speed computation
+	(ie, algorithms with partitioned computation to optimize performance),
+	and advanced devices and systems for 3D device tracking (navigation).
+	Current clinical applications are successfully incorporating real-time
+	and/or continuously up-dated image-based information for direct intra-operative
+	visualization. In addition to using traditional imaging systems during
+	surgery, we foresee optimized use of molecular marker technology,
+	direct measures of tissue characterization (ie, optical measurements
+	and/or imaging), and integration of the next generation of surgical
+	and therapy devices (including image-guided robotic systems). Although
+	we expect the primary clinical thrusts of MRI-guided therapy to remain
+	in neurosurgery, with the possible addition of other areas like orthopedic,
+	head, neck, and spine surgery, we also anticipate increased use of
+	image-guided focal thermal ablative methods (eg, laser, RF, cryoablation,
+	high-intensity focused ultrasound). By validating the effectiveness
+	of MRI-guided therapy in specific clinical procedures while refining
+	the technology that serves as its underpinning at the same time,
+	we expect many neurosurgeons will eventually embrace MRI as their
+	intraoperative imaging choice. Clearly, intraoperative MRI offers
+	several palpable advantages. Most important among these are improved
+	medical outcomes, shorter hospitalization, and better and faster
+	procedures with fewer complications. Certain economic and practical
+	barriers also impede the large-scale use of intraoperative MRI. Although
+	there has been a concerted technical effort to increase the benefit/cost
+	ratio by gathering more accurate information, designing more localized
+	and less invasive treatment devices, and developing better methods
+	to orient and position therapy end-effectors, further research is
+	needed. Indeed, the drive to improve and upgrade technology is ongoing.
+	Specifically, in the context of the real-time representation of the
+	patient's anatomy, we have improved the quality and utility of the
+	information presented to the surgeon, which, in turn, contributes
+	to more successful surgical outcomes. We can also expect improvements
+	in intraoperative imaging systems as well as increased use of nonimaging
+	sensors and robotics to facilitate more widespread use of intraoperative
+	MRI.},
+  doi = {10.1016/j.nec.2004.07.011},
+  institution = {Division of MRI and Image Guided Therapy Program, Department of Radiology,
+	Brigham and Women's Hospital, Harvard Medical School, 75 Francis
+	Street, Boston, MA 02115, USA. jolesz@bwh.harvard.edu},
+  keywords = {Humans; Image Processing, Computer-Assisted; Intraoperative Care;
+	Magnetic Resonance Imaging, trends; Neurosurgical Procedures, trends;
+	Therapy, Computer-Assisted},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {S1042-3680(04)00085-3},
+  pmid = {15561539},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1016/j.nec.2004.07.011}
+}
+
+@ARTICLE{Kappadath2011,
+  author = {Kappadath, S Cheenu},
+  title = {Effects of voxel size and iterative reconstruction parameters on
+	the spatial resolution of 99mTc SPECT/CT.},
+  journal = {J Appl Clin Med Phys},
+  year = {2011},
+  volume = {12},
+  pages = {3459},
+  number = {4},
+  abstract = {The purpose of this study was to evaluate the effects of voxel size
+	and iterative reconstruction parameters on the radial and tangential
+	resolution for 99mTc SPECT as a function of radial distance from
+	isocenter. SPECT/CT scans of eight coplanar point sources of size
+	smaller than 1 mm3 containing high concentration 99mTc solution were
+	acquired on a SPECT/CT system with 5/8 inch NaI(Tl) detector and
+	low-energy, high-resolution collimator. The tomographic projection
+	images were acquired in step-and-shoot mode for 360 views over 360°
+	with 250,000 counts per view, a zoom of 2.67, and an image matrix
+	of 256 × 256 pixels that resulted in a 0.9 × 0.9 × 0.9 mm3 SPECT
+	voxel size over 230 mm field-of-view. The projection images were
+	also rebinned to image matrices of 128 × 128 and 64 × 64 to yield
+	SPECT voxel sizes of 1.8 × 1.8 × 1.8 and 3.6 × 3.6 × 3.6 mm3, respectively.
+	The SPECT/CT datasets were reconstructed using the vendor-supplied
+	iterative reconstruction software that incorporated collimator-specific
+	resolution recovery, CT-based attenuation correction, and dual-energy
+	window-based scatter correction using different combinations of iterations
+	and subsets. SPECT spatial resolution was estimated as the full width
+	at half maximum of the radial and tangential profiles through the
+	center of each point source in reconstructed SPECT images. Both radial
+	and tangential resolution improved with higher iterations and subsets,
+	and with smaller voxel sizes. Both radial and tangential resolution
+	also improved with radial distance further away from isocenter. The
+	magnitude of variation decreased for smaller voxel sizes and for
+	higher number of iterations and subsets. Tangential resolution was
+	found not to be equal to the radial resolution, and the nature of
+	the anisotropy depended on the distribution of the radionuclide and
+	on the reconstruction parameters used. The tangential resolution
+	converged faster than the radial resolution, with higher iterations
+	and subsets. SPECT resolution was isotropic and independent of radial
+	distance when reconstructed using filtered back-projection. SPECT
+	spatial resolution and therefore quantification of SPECT uptake via
+	partial-volume correction in clinical images were found to depend
+	on the nature of activity distribution within the SPECT field-of-view
+	and on the specific choice of iterative reconstruction parameters.},
+  institution = {Department of Imaging Physics, The University of Texas MD Anderson
+	Cancer Center, Houston, TX 77030, USA. skappadath@mdanderson.org},
+  keywords = {Humans; Image Enhancement, methods; Image Processing, Computer-Assisted;
+	Positron-Emission Tomography and Computed Tomography, methods; Technetium},
+  language = {eng},
+  medline-pst = {epublish},
+  owner = {emily.seibring},
+  pmid = {22089002},
+  timestamp = {2013.02.15}
+}
+
+@ARTICLE{Kaufman1987,
+  author = {Kaufman, L.},
+  title = {Implementing and accelerating the em algorithm for positron emission
+	tomography.},
+  journal = {IEEE Trans Med Imaging},
+  year = {1987},
+  volume = {6},
+  pages = {37--51},
+  number = {1},
+  abstract = {Since the publication of Shepp and Vadi's [ 14] maximum likelihood
+	reconstruction algorithm for emission tomography (ET), many medical
+	research centers engaged in ET have made an effort to change their
+	reconstruction algorithms to this new approach. Some have succeeded,
+	while others claim they could not adopt this new approach primarily
+	because of limited computing power. In this paper, we discuss techniques
+	for reducing the computational requirements of the reconstruction
+	algorithm. Specifically, the paper discusses the data structures
+	one might use and ways of taking advantage of the geometry of the
+	physical system. The paper also treats some of the numerical aspects
+	of the EM (expectation maximization) algorithm, and ways of speeding
+	up the numerical algorithm using some of the traditional techniques
+	of numerical analysis.},
+  doi = {10.1109/TMI.1987.4307796},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pmid = {18230425},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1109/TMI.1987.4307796}
+}
+
+@ARTICLE{Koh2011,
+  author = {Koh, Wonryull and Blackwell, Kim T.},
+  title = {An accelerated algorithm for discrete stochastic simulation of reaction-diffusion
+	systems using gradient-based diffusion and tau-leaping.},
+  journal = {J Chem Phys},
+  year = {2011},
+  volume = {134},
+  pages = {154103},
+  number = {15},
+  month = {Apr},
+  abstract = {Stochastic simulation of reaction-diffusion systems enables the investigation
+	of stochastic events arising from the small numbers and heterogeneous
+	distribution of molecular species in biological cells. Stochastic
+	variations in intracellular microdomains and in diffusional gradients
+	play a significant part in the spatiotemporal activity and behavior
+	of cells. Although an exact stochastic simulation that simulates
+	every individual reaction and diffusion event gives a most accurate
+	trajectory of the system's state over time, it can be too slow for
+	many practical applications. We present an accelerated algorithm
+	for discrete stochastic simulation of reaction-diffusion systems
+	designed to improve the speed of simulation by reducing the number
+	of time-steps required to complete a simulation run. This method
+	is unique in that it employs two strategies that have not been incorporated
+	in existing spatial stochastic simulation algorithms. First, diffusive
+	transfers between neighboring subvolumes are based on concentration
+	gradients. This treatment necessitates sampling of only the net or
+	observed diffusion events from higher to lower concentration gradients
+	rather than sampling all diffusion events regardless of local concentration
+	gradients. Second, we extend the non-negative Poisson tau-leaping
+	method that was originally developed for speeding up nonspatial or
+	homogeneous stochastic simulation algorithms. This method calculates
+	each leap time in a unified step for both reaction and diffusion
+	processes while satisfying the leap condition that the propensities
+	do not change appreciably during the leap and ensuring that leaping
+	does not cause molecular populations to become negative. Numerical
+	results are presented that illustrate the improvement in simulation
+	speed achieved by incorporating these two new strategies.},
+  doi = {10.1063/1.3572335},
+  institution = {Krasnow Institute for Advanced Study, George Mason University, Fairfax,
+	Virginia 22030, USA.},
+  keywords = {Algorithms; Cyclic AMP, pharmacology; Diffusion; Enzyme Activation,
+	drug effects; Models, Chemical; Poisson Distribution; Protein Kinases,
+	chemistry/metabolism; Stochastic Processes},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pmid = {21513371},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1063/1.3572335}
+}
+
+@ARTICLE{Kooper2008,
+  author = {Kooper, Rob and Shirk, Andrew and Lee, Sang-Chul and Lin, Amy and
+	Folberg, Robert and Bajcsy, Peter},
+  title = {3D medical volume reconstruction using web services.},
+  journal = {Comput Biol Med},
+  year = {2008},
+  volume = {38},
+  pages = {490--500},
+  number = {4},
+  month = {Apr},
+  abstract = {We address the problem of 3D medical volume reconstruction using web
+	services. The use of proposed web services is motivated by the fact
+	that the problem of 3D medical volume reconstruction requires significant
+	computer resources and human expertise in medical and computer science
+	areas. Web services are implemented as an additional layer to a dataflow
+	framework called data to knowledge. In the collaboration between
+	UIC and NCSA, pre-processed input images at NCSA are made accessible
+	to medical collaborators for registration. Every time UIC medical
+	collaborators inspected images and selected corresponding features
+	for registration, the web service at NCSA is contacted and the registration
+	processing query is executed using the image to knowledge library
+	of registration methods. Co-registered frames are returned for verification
+	by medical collaborators in a new window. In this paper, we present
+	3D volume reconstruction problem requirements and the architecture
+	of the developed prototype system at http://isda.ncsa.uiuc.edu/MedVolume.
+	We also explain the tradeoffs of our system design and provide experimental
+	data to support our system implementation. The prototype system has
+	been used for multiple 3D volume reconstructions of blood vessels
+	and vasculogenic mimicry patterns in histological sections of uveal
+	melanoma studied by fluorescent confocal laser scanning microscope.},
+  doi = {10.1016/j.compbiomed.2008.01.015},
+  institution = {National Center for Supercomputing Applications (NCSA), University
+	of Illinois at Urbana-Champaign (UIUC), 1205 W. Clark Street, Urbana,
+	IL 61801, USA.},
+  keywords = {Algorithms; Artificial Intelligence; Data Compression; Database Management
+	Systems; Databases as Topic; Decision Support Systems, Clinical;
+	Expert Systems; Humans; Image Processing, Computer-Assisted, methods;
+	Imaging, Three-Dimensional, methods; Internet; Knowledge Bases; Microscopy,
+	Confocal; User-Computer Interface},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {rudolph},
+  pii = {S0010-4825(08)00014-0},
+  pmid = {18336808},
+  timestamp = {2013.02.18},
+  url = {http://dx.doi.org/10.1016/j.compbiomed.2008.01.015}
+}
+
+@ARTICLE{Korb2011,
+  author = {Korb, Oliver and Stützle, Thomas and Exner, Thomas E.},
+  title = {Accelerating molecular docking calculations using graphics processing
+	units.},
+  journal = {J Chem Inf Model},
+  year = {2011},
+  volume = {51},
+  pages = {865--876},
+  number = {4},
+  month = {Apr},
+  abstract = {The generation of molecular conformations and the evaluation of interaction
+	potentials are common tasks in molecular modeling applications, particularly
+	in protein-ligand or protein-protein docking programs. In this work,
+	we present a GPU-accelerated approach capable of speeding up these
+	tasks considerably. For the evaluation of interaction potentials
+	in the context of rigid protein-protein docking, the GPU-accelerated
+	approach reached speedup factors of up to over 50 compared to an
+	optimized CPU-based implementation. Treating the ligand and donor
+	groups in the protein binding site as flexible, speedup factors of
+	up to 16 can be observed in the evaluation of protein-ligand interaction
+	potentials. Additionally, we introduce a parallel version of our
+	protein-ligand docking algorithm PLANTS that can take advantage of
+	this GPU-accelerated scoring function evaluation. We compared the
+	GPU-accelerated parallel version to the same algorithm running on
+	the CPU and also to the highly optimized sequential CPU-based version.
+	In terms of dependence of the ligand size and the number of rotatable
+	bonds, speedup factors of up to 10 and 7, respectively, can be observed.
+	Finally, a fitness landscape analysis in the context of rigid protein-protein
+	docking was performed. Using a systematic grid-based search methodology,
+	the GPU-accelerated version outperformed the CPU-based version with
+	speedup factors of up to 60.},
+  doi = {10.1021/ci100459b},
+  institution = {Cambridge Crystallographic Data Centre, CB21EZ Cambridge, United
+	Kingdom. korb@ccdc.cam.ac.uk},
+  keywords = {Algorithms; Binding Sites; Computer Simulation; Computers; Drug Design;
+	Ligands; Models, Molecular; Molecular Conformation; Protein Binding;
+	Protein Conformation; Proteins, chemistry; Software},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pmid = {21434638},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1021/ci100459b}
+}
+
+@ARTICLE{Kostopoulos2013,
+  author = {Kostopoulos, Spiros and Sidiropoulos, Konstantinos and Glotsos, Dimitris
+	and Athanasiadis, Emmanouil and Boutsikou, Konstantina and Lavdas,
+	Eleftherios and Oikonomou, Georgia and Fezoulidis, Ioannis V. and
+	Vlychou, Marianna and Hantes, Michael and Cavouras, Dionisis},
+  title = {Pattern-recognition system, designed on GPU, for discriminating between
+	injured normal and pathological knee cartilage.},
+  journal = {Magn Reson Imaging},
+  year = {2013},
+  month = {Jan},
+  abstract = {The aim was to design a pattern-recognition (PR) system for discriminating
+	between normal and pathological knee articular cartilage of the medial
+	femoral (MFC) and tibial condyles (MTC). The data set comprised segmented
+	regions of interest (ROIs) from coronal and sagittal 3-T magnetic
+	resonance images of the MFC and MTC cartilage of young patients,
+	28 with abnormality-free knee and 16 with pathological findings.
+	The PR system was designed employing the probabilistic neural network
+	classifier, textural features from the segmented ROIs and the leave-one-out
+	evaluation method, while the PR system's precision to "unseen" data
+	was assessed by employing the external cross-validation method. Optimal
+	system design was accomplished on a consumer graphics processing
+	unit (GPU) using Compute Unified Device Architecture parallel programming.
+	PR system design on the GPU required about 3.5min against 15h on
+	a CPU-based system. Highest classification accuracies for the MFC
+	and MTC cartilages were 93.2\% and 95.5\%, and accuracies to "unseen"
+	data were 89\% and 86\%, respectively. The proposed PR system is
+	housed in a PC, equipped with a consumer GPU, and it may be easily
+	retrained when new verified data are incorporated in its repository
+	and may be of value as a second-opinion tool in a clinical environment.},
+  doi = {10.1016/j.mri.2012.10.029},
+  institution = {Department of Medical Instruments Technology, Technological Educational
+	Institute of Athens, Ag. Spyridonos, Egaleo, 12210 Athens, Greece.},
+  language = {eng},
+  medline-pst = {aheadofprint},
+  owner = {emily.seibring},
+  pii = {S0730-725X(12)00428-6},
+  pmid = {23333579},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1016/j.mri.2012.10.029}
+}
+
+@INPROCEEDINGS{674673,
+  author = {Krekule, I. and Capek, M. and Spunda, M.},
+  title = {Distant processing of medical image data},
+  booktitle = {Information Technology Applications in Biomedicine, 1998. ITAB 98.
+	Proceedings. 1998 IEEE International Conference on},
+  year = {1998},
+  pages = {57 -59},
+  month = {may},
+  doi = {10.1109/ITAB.1998.674673},
+  keywords = {Biomedical image processing;Biomedical imaging;Computer displays;Control
+	systems;Iris;Medical control systems;Microscopy;Software packages;Supercomputers;Workstations;asynchronous
+	transfer mode;image registration;medical image processing;parallel
+	machines;real-time systems;software packages;workstations;ATM;Explorer
+	Iris;confocal laser microscope;custom made modules;distant image
+	processing;graphical workstation;image registration;medical image
+	processing;real-time system;scientific software packages;supercomputer;}
+}
+
+@INPROCEEDINGS{murgasova2011unified,
+  author = {Murgasova, M and Quaghebeur, G and Hajnal, JV and Schnabel, JA},
+  title = {Unified framework for superresolution reconstruction of 3D fetal
+	brain mr images from 2D slices with intensity correction and outlier
+	rejection},
+  booktitle = {MICCAI Workshop on Image Analysis of Human Brain Development (IAHBD)},
+  year = {2011}
+}
+
+@ARTICLE{Orio2012,
+  author = {Orio, Patricio and Soudry, Daniel},
+  title = {Simple, fast and accurate implementation of the diffusion approximation
+	algorithm for stochastic ion channels with multiple states.},
+  journal = {PLoS One},
+  year = {2012},
+  volume = {7},
+  pages = {e36670},
+  number = {5},
+  abstract = {BACKGROUND: The phenomena that emerge from the interaction of the
+	stochastic opening and closing of ion channels (channel noise) with
+	the non-linear neural dynamics are essential to our understanding
+	of the operation of the nervous system. The effects that channel
+	noise can have on neural dynamics are generally studied using numerical
+	simulations of stochastic models. Algorithms based on discrete Markov
+	Chains (MC) seem to be the most reliable and trustworthy, but even
+	optimized algorithms come with a non-negligible computational cost.
+	Diffusion Approximation (DA) methods use Stochastic Differential
+	Equations (SDE) to approximate the behavior of a number of MCs, considerably
+	speeding up simulation times. However, model comparisons have suggested
+	that DA methods did not lead to the same results as in MC modeling
+	in terms of channel noise statistics and effects on excitability.
+	Recently, it was shown that the difference arose because MCs were
+	modeled with coupled gating particles, while the DA was modeled using
+	uncoupled gating particles. Implementations of DA with coupled particles,
+	in the context of a specific kinetic scheme, yielded similar results
+	to MC. However, it remained unclear how to generalize these implementations
+	to different kinetic schemes, or whether they were faster than MC
+	algorithms. Additionally, a steady state approximation was used for
+	the stochastic terms, which, as we show here, can introduce significant
+	inaccuracies. MAIN CONTRIBUTIONS: We derived the SDE explicitly for
+	any given ion channel kinetic scheme. The resulting generic equations
+	were surprisingly simple and interpretable--allowing an easy, transparent
+	and efficient DA implementation, avoiding unnecessary approximations.
+	The algorithm was tested in a voltage clamp simulation and in two
+	different current clamp simulations, yielding the same results as
+	MC modeling. Also, the simulation efficiency of this DA method demonstrated
+	considerable superiority over MC methods, except when short time
+	steps or low channel numbers were used.},
+  doi = {10.1371/journal.pone.0036670},
+  institution = {Centro Interdisciplinario de Neurociencia de Valparaíso, Facultad
+	de Ciencias, Universidad de Valparaíso, Valparaíso, Chile. patricio.orio@uv.cl},
+  keywords = {Algorithms; Computer Simulation; Ion Channel Gating, physiology; Ion
+	Channels, physiology; Markov Chains; Models, Biological},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {PONE-D-11-21641},
+  pmid = {22629320},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1371/journal.pone.0036670}
+}
+
+@ARTICLE{Orphanoudakis1988,
+  author = {Orphanoudakis, S. C.},
+  title = {Supercomputing in medical imaging.},
+  journal = {IEEE Eng Med Biol Mag},
+  year = {1988},
+  volume = {7},
+  pages = {16--20},
+  number = {4},
+  abstract = {It is suggested that the diagnostic imaging department of the future
+	will make extensive use of computer networks, mass storage devices,
+	and sophisticated workstations at which humans and machines will
+	interact, assisted by techniques of computer vision and artificial
+	intelligence, to achieve integration of multimodality imaging information
+	and expert medical knowledge. Recent developments in medical imaging
+	are described, and manipulation, display, and analysis techniques
+	that are likely to benefit from supercomputing are examined. The
+	following image processing tasks are discussed; restoration of images;
+	spatial and temporal image and image sequence analysis; image restoration;
+	mathematical image reconstruction from projections; and three-dimensional
+	image analysis. Current trends and future efforts are discussed.},
+  doi = {10.1109/51.20375},
+  institution = {Dept. of Diagnostic Imaging, Yale Univ. Med. Sch., New Haven, CT.},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {rudolph},
+  pmid = {18244076},
+  timestamp = {2013.02.18},
+  url = {http://dx.doi.org/10.1109/51.20375}
+}
+
+@ARTICLE{Porter2006,
+  author = {Porter, S. C. and Manzi, S. F. and Volpe, D. and Stack, A. M.},
+  title = {Getting the data right: information accuracy in pediatric emergency
+	medicine.},
+  journal = {Qual Saf Health Care},
+  year = {2006},
+  volume = {15},
+  pages = {296--301},
+  number = {4},
+  month = {Aug},
+  __markedentry = {[rudolph:]},
+  abstract = {(1) To identify the extent to which information provided by parents
+	in the pediatric emergency department (ED) can drive the assessment
+	and categorization of data on allergies to medications, and (2) to
+	identify errors related to the capture and documentation of allergy
+	data at specific process level steps during ED care.An observational
+	study was conducted in a pediatric ED, combining direct observation
+	at triage, a structured verbal interview with parents to ascertain
+	a full allergy history related to medications, and chart abstraction.
+	A comparative standard for the allergy history was established using
+	parents' interview responses and existing guidelines for allergy.
+	Errors associated with ED information management of allergy data
+	were evaluated at five steps: (1) triage assessment, (2) treating
+	physician's discussion with parent, (3) treating nurse's discussion
+	with parent, (4) use of an allergy bracelet, and (5) documentation
+	of allergy history on medication order sheets.256 parent-child dyads
+	were observed at triage; 211/256 parents (82.4\%) completed the structured
+	verbal interview that served as the basis for the comparative standard
+	(CS). Parents reported a total of 59 medications as possible allergies;
+	56 (94.9\%) were categorized as allergy or not based on the CS. Twenty
+	eight of 48 patient cases were true allergies by guideline based
+	assessment. Sensitivity of triage for detecting true medication allergy
+	was 74.1\% (95\% confidence interval (CI) 53.7 to 88.9). Specificity
+	of triage personnel for correctly determining that no allergy existed
+	was 93.2\% (95\% CI 88.5 to 96.5). Physician and nursing care had
+	performance gaps related to medication allergy in 10-25\% of cases.There
+	are significant gaps in the quality of information management regarding
+	medication allergies in the pediatric ED.},
+  doi = {10.1136/qshc.2005.017442},
+  institution = {Division of Emergency Medicine, Children's Hospital Boson, 300 Longwood
+	Ave, Boston, MA 02115, USA. Stephen.porter@childrens.harvard.edu},
+  keywords = {Adolescent; Asthma, chemically induced/diagnosis/drug therapy; Child;
+	Child, Preschool; Decision Support Systems, Clinical; Documentation;
+	Drug Hypersensitivity, classification; Emergency Medical Tags; Emergency
+	Service, Hospital, standards; Humans; Information Management, standards;
+	Interviews as Topic; Medical History Taking, methods/standards; Medical
+	Order Entry Systems; Medical Records Systems, Computerized, standards;
+	Parents, education/psychology; Pediatrics, standards; Safety Management;
+	Sensitivity and Specificity; Triage, methods/standards},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {rudolph},
+  pii = {15/4/296},
+  pmid = {16885256},
+  timestamp = {2013.02.18},
+  url = {http://dx.doi.org/10.1136/qshc.2005.017442}
+}
+
+@ARTICLE{Raj2011,
+  author = {Raj, Ashish and Hess, Christopher and Mukherjee, Pratik},
+  title = {Spatial HARDI: improved visualization of complex white matter architecture
+	with Bayesian spatial regularization.},
+  journal = {Neuroimage},
+  year = {2011},
+  volume = {54},
+  pages = {396--409},
+  number = {1},
+  month = {Jan},
+  abstract = {Imaging of water diffusion using magnetic resonance imaging has become
+	an important noninvasive method for probing the white matter connectivity
+	of the human brain for scientific and clinical studies. Current methods,
+	such as diffusion tensor imaging (DTI), high angular resolution diffusion
+	imaging (HARDI) such as q-ball imaging, and diffusion spectrum imaging
+	(DSI), are limited by low spatial resolution, long scan times, and
+	low signal-to-noise ratio (SNR). These methods fundamentally perform
+	reconstruction on a voxel-by-voxel level, effectively discarding
+	the natural coherence of the data at different points in space. This
+	paper attempts to overcome these tradeoffs by using spatial information
+	to constrain the reconstruction from raw diffusion MRI data, and
+	thereby improve angular resolution and noise tolerance. Spatial constraints
+	are specified in terms of a prior probability distribution, which
+	is then incorporated in a Bayesian reconstruction formulation. By
+	taking the log of the resulting posterior distribution, optimal Bayesian
+	reconstruction is reduced to a cost minimization problem. The minimization
+	is solved using a new iterative algorithm based on successive least
+	squares quadratic descent. Simulation studies and in vivo results
+	are presented which indicate significant gains in terms of higher
+	angular resolution of diffusion orientation distribution functions,
+	better separation of crossing fibers, and improved reconstruction
+	SNR over the same HARDI method, spherical harmonic q-ball imaging,
+	without spatial regularization. Preliminary data also indicate that
+	the proposed method might be better at maintaining accurate ODFs
+	for smaller numbers of diffusion-weighted acquisition directions
+	(hence faster scans) compared to conventional methods. Possible impacts
+	of this work include improved evaluation of white matter microstructural
+	integrity in regions of crossing fibers and higher spatial and angular
+	resolution for more accurate tractography.},
+  doi = {10.1016/j.neuroimage.2010.07.040},
+  institution = {Department of Radiology, Weill Medical College of Cornell University,
+	New York, NY 10044, USA. asr2004@med.cornell.edu},
+  keywords = {Adult; Algorithms; Bayes Theorem; Brain Mapping, methods; Brain, anatomy
+	/&/ histology; Computer Simulation; Humans; Image Processing, Computer-Assisted,
+	methods; Least-Squares Analysis; Magnetic Resonance Imaging, methods;
+	Male; Nerve Fibers, ultrastructure; Normal Distribution; Sensitivity
+	and Specificity},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {S1053-8119(10)01013-X},
+  pmid = {20670684},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1016/j.neuroimage.2010.07.040}
+}
+
+@ARTICLE{Smith1998,
+  author = {Smith, M. S. and Feied, C. F.},
+  title = {The next-generation emergency department.},
+  journal = {Ann Emerg Med},
+  year = {1998},
+  volume = {32},
+  pages = {65--74},
+  number = {1},
+  month = {Jul},
+  abstract = {The greatest advances in medicine over the next two decades will result
+	from application of the tools and principles of informatics to the
+	problems of clinical medicine. New developments in medical informatics
+	will drive advances in clinical care administration, research, and
+	education. Information flow in the emergency department a decade
+	hence will be characterized by a transformation from a "hunter-gatherer"
+	information model to a "publisher-subscriber" model in which the
+	right information will always be available at the right time. In
+	large part, information will be gathered automatically rather than
+	manually. Computers will be ubiquitous and almost invisible. Invasive
+	and attached monitoring and testing will yield to new remote and
+	noninvasive technologies. Information will be shared and modified
+	as needed, rather than recreated and reentered by each caregiver.
+	Eventually, the use of information technologies in the emergency
+	medicine workplace will enhance our traditional role as hands-on
+	providers of direct patient care.},
+  institution = {Department of Emergency Medicine, Washington Hospital Center, DC,
+	USA.},
+  keywords = {Emergency Service, Hospital, trends; Forecasting; Humans; Information
+	Management, trends; Medical Records Systems, Computerized, trends;
+	Monitoring, Physiologic, trends; United States; Work Simplification},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {rudolph},
+  pii = {S0196064498001905},
+  pmid = {9656951},
+  timestamp = {2013.02.18}
+}
+
+@ARTICLE{Thibault2007,
+  author = {Thibault, Jean-Baptiste and Sauer, Ken D. and Bouman, Charles A.
+	and Hsieh, Jiang},
+  title = {A three-dimensional statistical approach to improved image quality
+	for multislice helical CT.},
+  journal = {Med Phys},
+  year = {2007},
+  volume = {34},
+  pages = {4526--4544},
+  number = {11},
+  month = {Nov},
+  abstract = {Multislice helical computed tomography scanning offers the advantages
+	of faster acquisition and wide organ coverage for routine clinical
+	diagnostic purposes. However, image reconstruction is faced with
+	the challenges of three-dimensional cone-beam geometry, data completeness
+	issues, and low dosage. Of all available reconstruction methods,
+	statistical iterative reconstruction (IR) techniques appear particularly
+	promising since they provide the flexibility of accurate physical
+	noise modeling and geometric system description. In this paper, we
+	present the application of Bayesian iterative algorithms to real
+	3D multislice helical data to demonstrate significant image quality
+	improvement over conventional techniques. We also introduce a novel
+	prior distribution designed to provide flexibility in its parameters
+	to fine-tune image quality. Specifically, enhanced image resolution
+	and lower noise have been achieved, concurrently with the reduction
+	of helical cone-beam artifacts, as demonstrated by phantom studies.
+	Clinical results also illustrate the capabilities of the algorithm
+	on real patient data. Although computational load remains a significant
+	challenge for practical development, superior image quality combined
+	with advancements in computing technology make IR techniques a legitimate
+	candidate for future clinical applications.},
+  institution = {Applied Science Laboratory, GE Healthcare, 3000 N. Grandview Boulevard,
+	W-1180, Waukesha, Wisconsin 53188, USA. jena-baptiste.thibault@med.ge.com},
+  keywords = {Bayes Theorem; Brain, pathology; Computer Simulation; Equipment Design;
+	Humans; Image Processing, Computer-Assisted, methods; Imaging, Three-Dimensional;
+	Models, Statistical; Models, Theoretical; Phantoms, Imaging; Radiographic
+	Image Interpretation, Computer-Assisted, methods; Software; Tomography,
+	Spiral Computed, methods},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pmid = {18072519},
+  timestamp = {2013.02.15}
+}
+
+@ARTICLE{Vandenberghe2006,
+  author = {Vandenberghe, Stefaan and Daube-Witherspoon, Margaret E. and Lewitt,
+	Robert M. and Karp, Joel S.},
+  title = {Fast reconstruction of 3D time-of-flight PET data by axial rebinning
+	and transverse mashing.},
+  journal = {Phys Med Biol},
+  year = {2006},
+  volume = {51},
+  pages = {1603--1621},
+  number = {6},
+  month = {Mar},
+  abstract = {Faster scintillators like LaBr(3) and LSO have sparked renewed interest
+	in PET scanners with time-of-flight (TOF) information. The TOF information
+	adds another dimension to the data set compared to conventional three-dimensional
+	(3D) PET with the size of the projection data being multiplied by
+	the number of TOF bins. Here we show by simulations and analytical
+	reconstruction that angular sampling for two-dimensional (2D) TOF
+	PET can be reduced significantly compared to what is required for
+	conventional 2D PET. Fully 3D TOF PET data, however, have a wide
+	range of oblique and transverse angles. To make use of the smaller
+	necessary angular sampling we reduce the 3D data to a set of 2D histoprojections.
+	This is done by rebinning the 3D data to 2D data and by mashing these
+	2D data into a limited number of angles. Both methods are based on
+	the most likely point given by the TOF measurement. It is shown that
+	the axial resolution loss associated with rebinning reduces with
+	improved timing resolution and becomes less than 1 mm for a TOF resolution
+	below 300 ps. The amount of angular mashing that can be applied without
+	tangential resolution loss increases with improved TOF resolution.
+	Even quite coarse angular mashing (18 angles out of 324 measured
+	angles for 424 ps) does not significantly reduce image quality in
+	terms of the contrast or noise. The advantages of the proposed methods
+	are threefold. Data storage is reduced to a limited number of 2D
+	histoprojections with TOF information. Compared to listmode format
+	we have the advantage of a predetermined storage space and faster
+	reconstruction. The method does not require the normalization of
+	projections prior to rebinning and can be applied directly to measured
+	listmode data.},
+  doi = {10.1088/0031-9155/51/6/017},
+  institution = {Clinical Site research, Philips Research USA, Briarcliff Manor, NY
+	10510-2099, USA. Stefaan.vandenberghe@Ugent.be},
+  keywords = {Algorithms; Computer Simulation; Data Compression; Fourier Analysis;
+	Humans; Image Enhancement; Image Interpretation, Computer-Assisted;
+	Image Processing, Computer-Assisted; Imaging, Three-Dimensional,
+	methods; Monte Carlo Method; Positron-Emission Tomography, methods;
+	Time; Time Factors; Tomography, Emission-Computed, methods},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {S0031-9155(06)08395-3},
+  pmid = {16510966},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1088/0031-9155/51/6/017}
+}
+
+@ARTICLE{Vitorge2010,
+  author = {Vitorge, Bruno and Bodenhausen, Geoffrey and Pelupessy, Philippe},
+  title = {Speeding up nuclear magnetic resonance spectroscopy by the use of
+	SMAll Recovery Times - SMART NMR.},
+  journal = {J Magn Reson},
+  year = {2010},
+  volume = {207},
+  pages = {149--152},
+  number = {1},
+  month = {Nov},
+  abstract = {A drastic reduction of the time required for two-dimensional NMR experiments
+	can be achieved by reducing or skipping the recovery delay between
+	successive experiments. Novel SMAll Recovery Times (SMART) methods
+	use orthogonal pulsed field gradients in three spatial directions
+	to select the desired pathways and suppress interference effects.
+	Two-dimensional spectra of dilute amino acids with concentrations
+	as low as 2 mM can be recorded in about 0.1 s per increment in the
+	indirect domain.},
+  doi = {10.1016/j.jmr.2010.07.017},
+  institution = {Associé au CNRS UMR 7203 et à l'Université Pierre et Marie Curie,
+	Département de Chimie, Ecole Normale Supérieure, 24 rue Lhomond,
+	75231 Paris Cedex 05, France.},
+  keywords = {Algorithms; Amino Acids, analysis; Artifacts; Magnetic Resonance Spectroscopy,
+	instrumentation/methods},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {S1090-7807(10)00223-5},
+  pmid = {20729112},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1016/j.jmr.2010.07.017}
+}
+
+@ARTICLE{Wehrle2011,
+  author = {Wehrle, Marius and Sulc, Miroslav and Vanícek, Jirí},
+  title = {Accelerating calculations of ultrafast time-resolved electronic spectra
+	with efficient quantum dynamics methods.},
+  journal = {Chimia (Aarau)},
+  year = {2011},
+  volume = {65},
+  pages = {334--338},
+  number = {5},
+  abstract = {We explore three specific approaches for speeding up the calculation
+	of quantum time correlation functions needed for time-resolved electronic
+	spectra. The first relies on finding a minimum set of sufficiently
+	accurate electronic surfaces. The second increases the time step
+	required for convergence of exact quantum simulations by using different
+	split-step algorithms to solve the time-dependent Schrödinger equation.
+	The third approach lowers the number of trajectories needed for convergence
+	of approximate semiclassical dynamics methods.},
+  institution = {Ecole Polytechnique Fédérale de Lausanne Institut des Sciences et
+	Ingénierie Chimiques Laboratory of Theoretical Physical Chemistry.},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pmid = {21744688},
+  timestamp = {2013.02.15}
+}
+
+@ARTICLE{Yang2011,
+  author = {Yang, Yao-Hao and Huang, Teng-Yi and Wang, Fu-Nien and Chuang, Tzu-Chao
+	and Chen, Nan-Kuei},
+  title = {Accelerating EPI Distortion Correction by Utilizing a Modern GPU-Based
+	Parallel Computation.},
+  journal = {J Neuroimaging},
+  year = {2011},
+  month = {Sep},
+  abstract = {BACKGROUND AND PURPOSE: The combination of phase demodulation and
+	field mapping is a practical method to correct echo planar imaging
+	(EPI) geometric distortion. However, since phase dispersion accumulates
+	in each phase-encoding step, the calculation complexity of phase
+	modulation is Ny-fold higher than conventional image reconstructions.
+	Thus, correcting EPI images via phase demodulation is generally a
+	time-consuming task. METHODS: Parallel computing by employing general-purpose
+	calculations on graphics processing units (GPU) can accelerate scientific
+	computing if the algorithm is parallelized. This study proposes a
+	method that incorporates the GPU-based technique into phase demodulation
+	calculations to reduce computation time. The proposed parallel algorithm
+	was applied to a PROPELLER-EPI diffusion tensor data set. RESULTS:
+	The GPU-based phase demodulation method reduced the EPI distortion
+	correctly, and accelerated the computation. The total reconstruction
+	time of the 16-slice PROPELLER-EPI diffusion tensor images with matrix
+	size of 128 × 128 was reduced from 1,754 seconds to 101 seconds by
+	utilizing the parallelized 4-GPU program. CONCLUSIONS: GPU computing
+	is a promising method to accelerate EPI geometric correction. The
+	resulting reduction in computation time of phase demodulation should
+	accelerate postprocessing for studies performed with EPI, and should
+	effectuate the PROPELLER-EPI technique for clinical practice. J Neuroimaging
+	2011;XX:1-5.},
+  doi = {10.1111/j.1552-6569.2011.00654.x},
+  institution = {From the Department of Electrical Engineering, National Taiwan University
+	of Science and Technology, Taipei, Taiwan, R.O.C. (Y-HY, T-YH); Department
+	of Biomedical Engineering and Environmental Sciences, National Tsing
+	Hua University, Hsinchu, Taiwan, R.O.C. (F-NW); Department of Electrical
+	Engineering, National Sun Yat-Sen University, Kaohsiung, Taiwan,
+	R.O.C. (T-CC); Brain Imaging and Analysis Center, Duke University
+	Medical Center, Durham, NC (N-KC). This work was supported in part
+	by the National Science Council under Grant NSC- 99-2628-E-011-003
+	and presented in part at the Joint Annual Meeting ISMRM-ESMRMB, Stockholm,
+	Sweden, 2010.},
+  language = {eng},
+  medline-pst = {aheadofprint},
+  owner = {emily.seibring},
+  pmid = {21914033},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1111/j.1552-6569.2011.00654.x}
+}
+
+@INCOLLECTION{Yu2010,
+  author = {Yu, Erin and Kealey, Ryan and Chignell, Mark and Ng, Joanna and Lo,
+	Jimmy},
+  title = {Smarter Healthcare: An Emergency Physician View of the Problem},
+  booktitle = {The Smart Internet},
+  publisher = {Springer Berlin Heidelberg},
+  year = {2010},
+  editor = {Chignell, Mark and Cordy, James and Ng, Joanna and Yesha, Yelena},
+  volume = {6400},
+  series = {Lecture Notes in Computer Science},
+  pages = {9-26},
+  doi = {10.1007/978-3-642-16599-3_2},
+  isbn = {978-3-642-16598-6},
+  keywords = {Healthcare; emergency rooms; flawed interaction; user interface design},
+  owner = {rudolph},
+  timestamp = {2013.02.18},
+  url = {http://dx.doi.org/10.1007/978-3-642-16599-3_2}
+}
+
+@ARTICLE{Zheng2011,
+  author = {Zheng, Shawn Q. and Branlund, Eric and Kesthelyi, Bettina and Braunfeld,
+	Michael B. and Cheng, Yifan and Sedat, John W. and Agard, David A.},
+  title = {A distributed multi-GPU system for high speed electron microscopic
+	tomographic reconstruction.},
+  journal = {Ultramicroscopy},
+  year = {2011},
+  volume = {111},
+  pages = {1137--1143},
+  number = {8},
+  month = {Jul},
+  abstract = {Full resolution electron microscopic tomographic (EMT) reconstruction
+	of large-scale tilt series requires significant computing power.
+	The desire to perform multiple cycles of iterative reconstruction
+	and realignment dramatically increases the pressing need to improve
+	reconstruction performance. This has motivated us to develop a distributed
+	multi-GPU (graphics processing unit) system to provide the required
+	computing power for rapid constrained, iterative reconstructions
+	of very large three-dimensional (3D) volumes. The participating GPUs
+	reconstruct segments of the volume in parallel, and subsequently,
+	the segments are assembled to form the complete 3D volume. Owing
+	to its power and versatility, the CUDA (NVIDIA, USA) platform was
+	selected for GPU implementation of the EMT reconstruction. For a
+	system containing 10 GPUs provided by 5 GTX295 cards, 10 cycles of
+	SIRT reconstruction for a tomogram of 4096(2) × 512 voxels from an
+	input tilt series containing 122 projection images of 4096(2) pixels
+	(single precision float) takes a total of 1845 s of which 1032 s
+	are for computation with the remainder being the system overhead.
+	The same system takes only 39 s total to reconstruct 1024(2) × 256
+	voxels from 122 1024(2) pixel projections. While the system overhead
+	is non-trivial, performance analysis indicates that adding extra
+	GPUs to the system would lead to steadily enhanced overall performance.
+	Therefore, this system can be easily expanded to generate superior
+	computing power for very large tomographic reconstructions and especially
+	to empower iterative cycles of reconstruction and realignment.},
+  doi = {10.1016/j.ultramic.2011.03.015},
+  institution = {The Howard Hughes Medical Institute and W.M. Keck Advanced Microscopy
+	Laboratory, Department of Biochemistry and Biophysics, University
+	of California, San Francisco, 600, 16th Street, CA 94158-2517, USA.},
+  keywords = {Algorithms; Animals; Centrosome, ultrastructure; Computer Communication
+	Networks; Computer Graphics; Drosophila, ultrastructure; Electron
+	Microscope Tomography, statistics /&/ numerical data; Image Processing,
+	Computer-Assisted, statistics /&/ numerical data; Imaging, Three-Dimensional,
+	statistics /&/ numerical data},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {emily.seibring},
+  pii = {S0304-3991(11)00122-7},
+  pmid = {21741915},
+  timestamp = {2013.02.15},
+  url = {http://dx.doi.org/10.1016/j.ultramic.2011.03.015}
+}
+
+@comment{jabref-meta: selector_review:}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+
